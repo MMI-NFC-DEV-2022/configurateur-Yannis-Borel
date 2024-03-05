@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import { ChaussureSvg } from '@/types-svg';
+import VueProfil from '@/components/VueProfil.vue';
+import VueDessus from '@/components/VueDessus.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+    <h1>Bonjour</h1>
+    <p>Chaussures :</p>
+    <VueProfil />
+    Vue du dessus :
+    <div class="w-[500px] mt-4 ml-3">
+    <VueDessus />
+    </div>
 </template>
