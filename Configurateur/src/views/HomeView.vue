@@ -2,6 +2,8 @@
 import { ChaussureSvg } from '@/types-svg';
 import VueProfil from '@/components/VueProfil.vue';
 import VueDessus from '@/components/VueDessus.vue';
+import FormSvg from '@/components/FormSvg.vue';
+
 </script>
 
 <template>
@@ -12,4 +14,5 @@ import VueDessus from '@/components/VueDessus.vue';
     <div class="w-[500px] mt-4 ml-3">
     <VueDessus />
     </div>
+    <FormSvg />
 </template>
